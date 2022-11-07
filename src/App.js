@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Title from "./Title";
+import Testing from "./Testing";
 
 function App() {
   return (
     <div className="App">
+      <Title text="New Text" name="Gus" />
+      <Testing text="fruity"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
