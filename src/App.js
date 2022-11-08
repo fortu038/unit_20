@@ -26,11 +26,12 @@ function App() {
 
   const submitForm = async (e) => {
     e.preventDault();
-    const submit = await fetch(".....", {
-      method: "POST",
-      body: JSON.stringify(userData),
-      headers: {"Content-Type": "application/json"}
-    })
+    // const submit = await fetch(".....", {
+    //   method: "POST",
+    //   body: JSON.stringify(userData),
+    //   headers: {"Content-Type": "application/json"}
+    // })
+    setFormSubmitted(true);
   }
 
   return (
