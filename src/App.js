@@ -50,38 +50,25 @@ function App() {
 
       <Subheader title="Adult Care Experience" />
       <ListContainer>
-        <ListItem>
-          Determined work placement for 150 special needs adult patients.
-        </ListItem>
-        <ListItem>
-          Maintained patient databases and records.
-        </ListItem>
-        <ListItem>
-          Coordinated patient contact with local health care professionals on a monthly basis.
-        </ListItem>
-        <ListItem>
-          Managed 25 volunteer workers.
-        </ListItem>
+        {
+          resumeData.adultCare.map( item => (
+            <ListItem key={item}> 
+              {item}
+            </ListItem>
+          ))
+        }
       </ListContainer>
       
 
       <Subheader title="Childcare Experience" />
       <ListContainer>
-        <ListItem>
-          Coordinated service assignments for 20 part-time counselors and 100 client families.
-        </ListItem>
-        <ListItem>
-          Oversaw daily activity and outing planning for 100 clients.
-        </ListItem>
-        <ListItem>
-          Assisted families of special needs clients with researching financial assistance and healthcare.
-        </ListItem>
-        <ListItem>
-          Assisted teachers with managing daily classroom activities.
-        </ListItem>
-        <ListItem>
-          Oversaw daily and special student activities.
-        </ListItem>
+        {
+          resumeData.childCare.map(item => (
+            <ListItem key={item}>
+              {item}
+            </ListItem>
+          ))
+        }
       </ListContainer>
 
 

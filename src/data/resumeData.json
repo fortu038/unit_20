@@ -1,5 +1,18 @@
 {
   "name": "John W. Smith",
   "address": "2002 Front Range Way, Fort Collins, CO 80525",
-  "email": "jwsmith@colostate.edu"
+  "email": "jwsmith@colostate.edu",
+  "childCare": [
+    "Coordinated service assignments for 20 part-time counselors and 100 client families.",
+    "Oversaw daily activity and outing planning for 100 clients.",
+    "Assisted families of special needs clients with researching financial assistance and healthcare.",
+    "Assisted teachers with managing daily classroom activities.",
+    "Oversaw daily and special student activities."
+  ],
+  "adultCare": [
+    "Determined work placement for 150 special needs adult clients.",
+    "Maintained client databases and records.",
+    "Coordinated client contact with local health care professionals on a monthly basis.",
+    "Managed 25 volunteer workers."
+  ]
 }
